@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://preview.codepad.co/css/normalize.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="jm.css" rel="stylesheet">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>... </title>
+</head>
+
+<body>
+    <div class="terminal">
+        <span class="dollar"></span>   Asallamualaikum.. Hai yang
+        <br/>
+        <span class="dollar"></span> selamat ulang tahun cantik :D
+        <br/>
+        <span class="dollar"></span> cie 16 tahun hehe.., nambah dewasa ya, nambah pinter, nurut sama orang tua.. Yang pasti tambah cantik :D 
+        <br/>
+        <span class="dollar"></span> maaf ya yang, nggak bisa kasih apa apa, aku kasih doa aja ya, sukses terus yang, semoga cita citanya tercapai ya..Aamiin, SEMANGAT sayang
+        <br/>
+        <span class="dollar"></span> segini aja ya? Susah, buatnya 1 bintang, knp nggak bulan? Soalnya bulannya itu kamu:p
+        <br/>
+        <span class="dollar"></span> jangan pergi ya sayang, aku suayang marin 
+        <br/>
+        <span class="dollar"></span> sekian atas perhatian sayang, jika ada salah kata mohon dimaafkan, karena kesempurnaan milik kamu sama tuhan :p
+        <br/>
+        <span class="dollar"></span> makasih yang.. Wasalamuallaikum, kangen aku ya  :D
+        <br/>
+        <span class="dollar"></span> rochmat, 18 september 2018
+    </div>
+    <script type="text/javascript">
+        $.fn.typewriter = function() {
+          this.each(function() {
+            var c = $(this),
+              b = c.html(),
+              a = 0,
+              d = 0;
+            c.html("");
+            var e = function() {
+              if ("<" == b.substring(a, a + 1)) {
+                var f = new RegExp(<span class="instant"/),
+                  g = new RegExp(/<span class="clear"/);
+                if (b.substring(a, b.length).match(f)) a += b.substring(a, b.length).indexOf("</span>") + 7;
+                else if (b.substring(a, b.length).match(g)) d = a, a += b.substring(a, b.length).indexOf("</span>") + 7;
+                else
+                  for (;
+                    ">" != b.substring(a, a + 1);) a++
+              }
+              c.html(b.substring(d, a++) + (a & 1 ? "_" : ""));
+              a >= b.length || setTimeout(e, 70 + 100 *
+                Math.random())
+            };
+            e()
+          });
+          return this
+        };
+        $(".terminal").typewriter();
+    </script>
+</body>
+
+</html>
